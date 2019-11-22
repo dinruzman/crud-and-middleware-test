@@ -79,6 +79,10 @@
                 </div>
             @endif
 
+            {{ Form::open(array('url' => 'foo/bar')) }}
+                //
+            {{ Form::close() }}
+
             <div class="content">
                 <div class="title m-b-md">
                     Laravel
